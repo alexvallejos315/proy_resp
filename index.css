@@ -1,6 +1,6 @@
 .icon_principal{
-    width: 240px;
-    height: 140px;
+    width: 250px;
+    height: 120px;
     margin: 0;
 }
 
@@ -53,3 +53,79 @@
 	}
 }
 
+.icon_card_1{
+	border:  rgb(13, 245, 167)	solid 2px ;
+	width:70px ;
+	border-radius: 50% 	;
+
+}
+
+.span_1{
+	color: rgba(3, 3, 3, 0.986);
+	font-weight: 900;
+	font-size: 20px;
+}
+.span_2{
+	color: rgba(21, 96, 146, 0.973);
+	font-weight: 900;
+	font-size: 20px;
+}
+
+
+
+.card-one{
+font-size: 20px;
+font-weight: 300;
+padding: 20px;
+font-family: 'Brygada 1918', serif;
+
+
+}
+.card-one:hover{
+	background:  rgba(13, 245, 168, 0.178)	;
+}
+
+
+
+
+.button-icon{
+
+border: 1px black solid;
+border-radius: 13px;
+background: rgba(209, 230, 20, 0.856);
+
+}
+.cont-qr{
+	background: rgba(17, 15, 15, 0.459);
+	background-image: url('./images/image_qrr.jpg');
+	height: 220px;
+	
+	z-index: 9;
+}
+.image-qr{
+display: flex;
+float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+	z-index: 99;
+	height:180px;
+	width: 175px;
+	background: white;
+	position:relative;
+	object-fit: cover;
+}
+.text-qr{
+	display: inline-flex;
+	
+	margin-top: 85px;
+	font-size: 26px;
+	font-weight: 800;
+	color:rgb(232, 232, 241) ;
+	
+	
+	}
+	.text-qr:hover{
+color: rgba(0, 255, 179, 0.466);
+
+	}
