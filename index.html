@@ -38,17 +38,17 @@
                 <div class="collapse navbar-collapse offset-md-4   " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item  ">
-                            <a class="nav-link active   nav-principal" aria-current="page" href="#">Nosotros</a>
+                            <a class="nav-link active   nav-principal" aria-current="page" href="#nosotros">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-principal " aria-current="page" href="#">Servicios</a>
+                            <a class="nav-link nav-principal " aria-current="page" href="#servicios">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-principal " aria-current="page" href="#">Testimonios</a>
+                            <a class="nav-link nav-principal " aria-current="page" href="#testimonios">Testimonios</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link nav-principal" aria-current="page" href="#">Clientes</a>
+                            <a class="nav-link nav-principal" aria-current="page" href="#clientes">Clientes</a>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +113,7 @@
             <div class="col-sm-12 col-md-8 mx-auto">
                 <img src="./images/icon_group.png" width="60px" class="mx-auto d-block icon_card_1  mt-3 mb-3">
                 <div>
-                    <div class="card-body text-center  ">
+                    <div class="card-body text-center" id="nosotros">
                         <span class="span_1">SOBRE</span>
                         <span class="span_2">NOSOTROS</span>
                         <p class="card-text text-center card-one">Empresa consultora especializada en temas financieros
@@ -175,7 +175,7 @@
             <div class="col-sm-12 col-md-8 mx-auto">
                 <img src="./images/icon_key.png" width="60px" class="mx-auto d-block icon_card_1  mt-3 mb-3">
                 <div>
-                    <div class="card-body text-center  ">
+                    <div class="card-body text-center" id="servicios">
                         <span class="span_1">NUESTROS</span>
                         <span class="span_2">SERVICIOS</span>
                         <p class="card-text text-center card-one">Asesoría especializada en las diferentes esferas de
@@ -240,51 +240,58 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 image-testimonios" ">
-    <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card-img-overlay">
-                            <p class="card-title mx-auto text-center title-testimonio ">TESTIMONIOS</p>
-                            <h3 class="card-text text-testimonio mx-auto text-center my-auto mt-4 ">" Trabajamos con
-                                Millenial Consulting durante el 2012 en la validación para el concurso de Buen Gobierno
-                                Corporativo y en un amplio y completo servicio de diagnóstico que fue la base para
-                                desarrollar mejoras que se han venido implementando en la compañía. MC&F resalta por la
-                                capacidad, agilidad y experiencia de su equipo, profesionales en los cuales se puede
-                                confiar dada su alta disposición para atender las necesidades de sus clientes,
-                                garantizando eficacia y buenos resultados "</h3>
+            <div class="col-12 image-testimonios" id="testimonios">
+                <div id=" carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-img-overlay">
+                                <p class="card-title mx-auto text-center title-testimonio ">TESTIMONIOS</p>
+                                <h3 class="card-text text-testimonio mx-auto text-center my-auto mt-4 ">" Trabajamos con
+                                    Millenial Consulting durante el 2012 en la validación para el concurso de Buen
+                                    Gobierno
+                                    Corporativo y en un amplio y completo servicio de diagnóstico que fue la base para
+                                    desarrollar mejoras que se han venido implementando en la compañía. MC&F resalta por
+                                    la
+                                    capacidad, agilidad y experiencia de su equipo, profesionales en los cuales se puede
+                                    confiar dada su alta disposición para atender las necesidades de sus clientes,
+                                    garantizando eficacia y buenos resultados "</h3>
+                            </div>
+
                         </div>
+                        <div class="carousel-item ">
 
-                    </div>
-                    <div class="carousel-item ">
+                            <div class="card-img-overlay">
+                                <p class="card-title mx-auto text-center title-testimonio ">TESTIMONIOS</p>
 
-                        <div class="card-img-overlay">
-                            <p class="card-title mx-auto text-center title-testimonio ">TESTIMONIOS</p>
-
-                            <h3 class="card-text text-testimonio mx-auto text-center my-auto mt-4"> Millenial Consulting
-                                nos acompañó de maneras activa en el proceso de constitución de nuestra Compañía ante la
-                                Superintendencia de Banca, Seguros y Administradora de Fondo Privado de Pensiones,
-                                mostrando en todo momento predisposición y solvencia para responder las consultas que
-                                surgieron por parte de la entidad reguladora durante este proceso, lo cual contribuyo a
-                                culminar con un proceso de constitución exitoso en cuanto a plazos y calidad en el
-                                trabajo realizado "</h3>
+                                <h3 class="card-text text-testimonio mx-auto text-center my-auto mt-4"> Millenial
+                                    Consulting
+                                    nos acompañó de maneras activa en el proceso de constitución de nuestra Compañía
+                                    ante la
+                                    Superintendencia de Banca, Seguros y Administradora de Fondo Privado de Pensiones,
+                                    mostrando en todo momento predisposición y solvencia para responder las consultas
+                                    que
+                                    surgieron por parte de la entidad reguladora durante este proceso, lo cual
+                                    contribuyo a
+                                    culminar con un proceso de constitución exitoso en cuanto a plazos y calidad en el
+                                    trabajo realizado "</h3>
+                            </div>
                         </div>
+                        <button class="carousel-control-prev icon-color my-auto" type="button"
+                            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next icon-color my-auto" type="button"
+                            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev icon-color my-auto" type="button"
-                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next icon-color my-auto" type="button"
-                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
+
         </div>
 
-    </div>
 
 
 
@@ -293,53 +300,74 @@
 
 
 
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 mx-auto">
-                <img src="./images/icon_client.png" width="60px" class="mx-auto d-block   mt-3 mb-3">
-                <div>
-                    <div class="card-body text-center  ">
-                        <span class="span_1">NUESTROS</span>
-                        <span class="span_2">CLIENTES</span>
-                        <p class="card-text text-center card-one">Gozamos de la confianza de las más importantes y
-                            prestigiosas empresas y organizaciones,
-                            tanto privadas como públicas, las que se desempeñan en diversos sectores económicos.</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 col-md-3 mb-5 mx-auto ">
-                    <img src="./images/client_1.png" width="70px" class="rounded mx-auto d-block">
-                    <h5 class="text-center">Apple</h5>
-                </div>
-                <div class="col-sm-12 col-md-3">
-                    <img src="./images/client_2.png" width="70px" class="rounded mx-auto d-block">
-                    <h5 class="text-center">AWS</h5>
-                </div>
-                <div class="col-sm-12 col-md-3">
-                    <img src="./images/client_3.png" width="70px" class="rounded mx-auto d-block">
-                    <h5 class="text-center">Microsoft</h5>
+                <div class="col-sm-12 col-md-12 mx-auto" id="clientes">
+                    <img src="./images/icon_client.png" width="60px" class="mx-auto d-block   mt-3 mb-3">
+                    <div>
+                        <div class="card-body text-center  ">
+                            <span class="span_1">NUESTROS</span>
+                            <span class="span_2">CLIENTES</span>
+                            <p class="card-text text-center card-one">Gozamos de la confianza de las más importantes y
+                                prestigiosas empresas y organizaciones,
+                                tanto privadas como públicas, las que se desempeñan en diversos sectores económicos.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-sm-12 col-md-3">
-                    <img src="./images/client_5.png" width="70px" class="rounded mx-auto d-block">
-                    <h5 class="text-center"> EA Sports
-                        <h5 />
+
+
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 mb-5 mx-auto ">
+                        <img src="./images/client_1.png" width="70px" class="rounded mx-auto d-block">
+                        <h5 class="text-center">Apple</h5>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <img src="./images/client_2.png" width="70px" class="rounded mx-auto d-block">
+                        <h5 class="text-center">AWS</h5>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <img src="./images/client_3.png" width="70px" class="rounded mx-auto d-block">
+                        <h5 class="text-center">Microsoft</h5>
+                    </div>
+
+                    <div class="col-sm-12 col-md-3">
+                        <img src="./images/client_5.png" width="70px" class="rounded mx-auto d-block">
+                        <h5 class="text-center"> EA Sports
+                            <h5 />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+
+
+
+
+        <!--FOOTER-->
+
+
+
+        <div class="container-fluid bg-light p-4">
+            <div class="row ">
+
+                <div class="col-sm-12 col-md-6 offset-sm-4 ">
+                    <h6 class="mb-4 mx-auto">©Derechos Reservados DAVP</h6>
+
+                    <a href="https://www.facebook.com"> <img src="./images/icon_facebook.png" width="65px" alt=""></a>
+                    <a href="https://github.com"> <img src="./images/client_4.png" width="65px" alt=""></a>
+                    <a href="https://web.whatsapp.com"> <img src="./images/icon_whatsapp.png" width="65px" alt=""></a>
+
+                </div>
+
+
+            </div>
+        </div>
 
 
 
 
 
-    
 
 
 
@@ -360,17 +388,12 @@
 
 
 
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
