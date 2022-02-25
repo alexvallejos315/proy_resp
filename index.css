@@ -1,6 +1,6 @@
 .icon_principal{
-    width: 250px;
-    height: 120px;
+    width: 230px;
+    height: 130px;
     margin: 0;
 }
 
@@ -117,15 +117,51 @@ float: right;
 }
 .text-qr{
 	display: inline-flex;
-	
-	margin-top: 85px;
+		margin-top: 85px;
 	font-size: 26px;
 	font-weight: 800;
-	color:rgb(232, 232, 241) ;
-	
-	
-	}
+	color:rgb(7, 190, 223) ;
+		}
 	.text-qr:hover{
 color: rgba(0, 255, 179, 0.466);
 
 	}
+.card-model{
+	background: rgba(161, 184, 201, 0.267);
+	margin: 5px;
+}
+.image-testimonios{
+	background-image: url('./images/image_conf.jpg');
+
+height:100vh;
+margin-bottom: 35px;
+
+z-index: 9;
+opacity: 0.9;
+}
+
+.text-testimonio{
+width: 400px;
+height: 410px;
+color: white;
+font-weight: 400;
+z-index: 99;
+padding: 20px 40px;
+backface-visibility: 20px;
+background: rgba(20, 20, 20, 0.815);
+font-size: 20px;
+}
+.title-testimonio{
+	
+color: rgb(18, 150, 150);
+font-weight: 800;
+letter-spacing: 10px;
+font-size: 30px;
+
+}
+.icon-color{
+	background: rgb(98, 231, 231);
+	width: 35px;
+	height: 40px;
+
+}
